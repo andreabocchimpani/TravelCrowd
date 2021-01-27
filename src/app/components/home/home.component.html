@@ -1,10 +1,15 @@
 <div class="home-container">
-    <div>
+
+  <div class="website-name">
+    <img src="./assets/images/TravelCrowd.png">
+  </div>
+
+    <div class="slideshow">
         <!-- slideshow -->
         <ngb-carousel>
             <ng-template ngbSlide>
               <div class="picsum-img-wrapper">
-                <img [src]="//src/assets/images/Shibuya.jpg">
+                <img class="slideshow-image" src="./assets/images/Fuji-Pagoda.jpg">
               </div>
               <div class="carousel-caption">
                 <h3>First slide label</h3>
@@ -13,7 +18,7 @@
             </ng-template>
             <ng-template ngbSlide>
               <div class="picsum-img-wrapper">
-                <img [src]="//src/app/assets/images/Madrid.jpg">
+                <img class="slideshow-image" src="./assets/images/Madrid.jpg">
               </div>
               <div class="carousel-caption">
                 <h3>Second slide label</h3>
@@ -22,7 +27,7 @@
             </ng-template>
             <ng-template ngbSlide>
               <div class="picsum-img-wrapper">
-                <img [src]="//src/app/assets/images/Parigi.jpg">
+                <img class="slideshow-image" src="./assets/images/Parigi.jpg">
               </div>
               <div class="carousel-caption">
                 <h3>Third slide label</h3>
@@ -30,17 +35,48 @@
               </div>
             </ng-template>
         </ngb-carousel>
+    </div>
+      
+    <div class="center-page">
+
+      <div class="section-title">I nostri viaggi</div>
+     
+      <div class="card-deck travel-card">
+        <div class="card">
+          <img class="card-img-top" src="./assets/images/Nice.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./assets/images/LondonPhone.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./assets/images/Porto.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum dictum magna, eu ultricies eros pharetra id. Vestibulum fermentum tristique augue eu lobortis. Nulla sapien diam, facilisis ac venenatis sit amet, mattis id lacus. Suspendisse ante ante, molestie sed ante eget, lacinia accumsan dui. Sed rutrum vel turpis ut porttitor. Suspendisse lorem urna, laoreet nec placerat in, bibendum in lectus. Cras facilisis volutpat urna, vitae malesuada sem rutrum sit amet. Aenean pretium, orci tempor consequat accumsan, nibh eros mollis lorem, at tristique enim neque ut erat. Nam ipsum massa, sodales a mollis ut, lacinia in orci. Nulla facilisi. Morbi vel lorem erat. Nunc nec accumsan felis, ut sodales sem. Praesent pellentesque porttitor sollicitudin. Duis at quam ante. Mauris varius pharetra tellus a varius.
+
+Vestibulum aliquet odio nec mi sagittis, eget commodo massa sagittis. Cras congue pellentesque lacus et semper. Vestibulum rhoncus enim ac urna commodo viverra in et nibh. Aenean pulvinar diam at augue luctus auctor. Vestibulum placerat arcu in neque viverra feugiat. Maecenas convallis, magna euismod congue venenatis, quam dolor fermentum arcu, nec condimentum nulla nibh at ligula. Nullam finibus magna ultricies velit imperdiet, eget bibendum ex convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque scelerisque dapibus risus, eu tristique mauris consectetur id. Curabitur ligula sapien, porttitor congue felis in, pharetra aliquam lacus.
+
+Pellentesque euismod velit sed magna luctus condimentum sed sed nisi. Phasellus consequat rhoncus erat, at cursus nulla posuere a. Praesent faucibus laoreet sodales. Curabitur fermentum est et metus rutrum varius. Quisque quis risus libero. Phasellus eget metus ut est lacinia auctor. Curabitur viverra risus sed elit commodo interdum. Phasellus tortor est, luctus sed nibh id, vestibulum mattis nulla.
+
+Proin pretium feugiat bibendum. Sed at elit eu odio dictum pulvinar sit amet ut mauris. Vestibulum ut elit bibendum, interdum nibh sed, viverra magna. Nam a pretium diam. Quisque congue metus ac euismod feugiat. Donec sed cursus arcu, ut malesuada arcu. Sed fringilla dignissim felis vitae ornare. Nullam feugiat convallis tortor. Donec faucibus hendrerit mi at facilisis. Suspendisse in elit aliquam, semper arcu eget, vestibulum orci. Curabitur non semper ligula, et elementum nunc. Donec id gravida sapien.
+
+Integer at tortor sed leo posuere sagittis. Maecenas blandit dolor dui, sit amet ullamcorper risus venenatis et. Proin porta congue felis at efficitur. Aenean non facilisis quam, sit amet hendrerit erat. Aenean ornare nunc sapien, vitae suscipit ipsum feugiat vitae. Donec mauris libero, ornare porta sapien sed, mattis elementum sapien. Pellentesque sit amet auctor quam, quis posuere mi. Nunc sit amet interdum dolor. Aliquam imperdiet gravida turpis quis pellentesque. Maecenas facilisis massa ut nisi ullamcorper dapibus. Nunc non ipsum sit amet elit commodo luctus et vel velit. Donec rhoncus quam sed dui vulputate, sit amet vehicula turpis semper. Duis tellus enim, semper ut nunc euismod, rutrum commodo leo. Maecenas maximus ex ut nisl dignissim, in commodo sem tincidunt. Phasellus nec magna non orci vulputate posuere. Nulla mattis porttitor lorem vitae tempor. 
+      </div>
 
     </div>
-    <!-- <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum metus erat, ut accumsan erat vehicula id. Aenean vel gravida nisl. Nullam ac rhoncus augue, id lacinia lectus. Praesent efficitur neque nibh, sed semper massa placerat semper. Suspendisse non arcu a dui euismod tincidunt at ac metus. Fusce in leo nec sapien tincidunt convallis sit amet ut tortor. Donec convallis at sapien non malesuada. Ut rhoncus porta luctus. Quisque id consectetur nibh, in pharetra quam. Nam aliquam nulla ipsum, sit amet posuere massa laoreet id. Nulla vitae lectus sapien.
-
-Integer bibendum rhoncus est sit amet elementum. Nulla quis nulla non lacus dapibus commodo. Ut vel purus tortor. Sed hendrerit lectus quis molestie ullamcorper. Fusce est nunc, bibendum vel posuere sit amet, ultrices vel libero. Vivamus non fermentum mi. Aenean aliquam, lacus vitae pulvinar hendrerit, nunc nunc congue odio, quis auctor ex turpis at nulla. Nam non ullamcorper ligula, a viverra erat. Donec et sodales nunc, vel ultricies ex. Cras ut viverra nisi. Sed risus eros, semper non luctus nec, condimentum id elit.
-
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec non porta massa, id blandit turpis. Donec euismod ante vitae imperdiet rhoncus. Phasellus efficitur aliquam lobortis. In a interdum metus. Donec pulvinar sit amet libero in malesuada. Cras eget nunc lacus. Aliquam consectetur scelerisque posuere. Mauris in erat diam. Proin est enim, scelerisque in auctor at, accumsan sit amet mauris.
-
-Fusce a sapien ac nunc rutrum posuere. Etiam auctor sed neque sed sollicitudin. Fusce a metus id leo placerat suscipit. Maecenas fringilla, ipsum vitae placerat tempus, velit tellus condimentum justo, in vestibulum neque dolor vel tortor. Duis eget diam in sapien cursus finibus. Duis interdum nisi eget venenatis volutpat. Curabitur at sapien massa. Nam quis mi vel diam bibendum blandit et eu risus. Suspendisse nec lorem elit.
-
-In rutrum elit ex, vel dictum lectus tincidunt sit amet. Nam imperdiet, dolor vitae mollis tincidunt, sem ipsum scelerisque metus, ut rhoncus nulla sem quis nunc. Nullam ac enim non purus finibus tempor. Nullam ultricies nibh sit amet sapien tempor hendrerit. Suspendisse eget nisl eu tellus rutrum cursus ac eu erat. Nunc fermentum sagittis pulvinar. Donec efficitur sit amet leo dapibus dictum. Morbi aliquam lobortis eleifend. Nulla massa felis, blandit quis nisi sed, luctus iaculis risus. Quisque luctus neque feugiat, finibus ligula vel, elementum ex. Nulla facilisi.
-    </div> -->
 </div>

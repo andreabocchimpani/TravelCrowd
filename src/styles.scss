@@ -50,3 +50,13 @@ html, body { height: 100vh; }
 body { margin: 0; padding: 0; font-family: 'Raleway', sans-serif;}
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+.carousel img {
+	width:100% !important;
+	min-width:100 !important;
+	height: 650px;
+}
+
+.card, .card-img-top{
+	border-radius: 25px !important;
+}
